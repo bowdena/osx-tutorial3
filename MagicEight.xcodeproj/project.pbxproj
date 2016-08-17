@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		431B5F811D64818300FA31F0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431B5F801D64818300FA31F0 /* AppDelegate.swift */; };
+		431B5F831D64818300FA31F0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431B5F821D64818300FA31F0 /* ViewController.swift */; };
+		431B5F851D64818300FA31F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 431B5F841D64818300FA31F0 /* Assets.xcassets */; };
+		431B5F881D64818300FA31F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 431B5F861D64818300FA31F0 /* Main.storyboard */; };
+		431B5F931D64818300FA31F0 /* MagicEightTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431B5F921D64818300FA31F0 /* MagicEightTests.swift */; };
+		431B5F9E1D64818300FA31F0 /* MagicEightUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 431B5F9D1D64818300FA31F0 /* MagicEightUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		431B5F8F1D64818300FA31F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 431B5F751D64818300FA31F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 431B5F7C1D64818300FA31F0;
+			remoteInfo = MagicEight;
+		};
+		431B5F9A1D64818300FA31F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 431B5F751D64818300FA31F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 431B5F7C1D64818300FA31F0;
+			remoteInfo = MagicEight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		431B5F7D1D64818300FA31F0 /* MagicEight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MagicEight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		431B5F801D64818300FA31F0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		431B5F821D64818300FA31F0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		431B5F841D64818300FA31F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		431B5F871D64818300FA31F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		431B5F891D64818300FA31F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		431B5F8E1D64818300FA31F0 /* MagicEightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicEightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		431B5F921D64818300FA31F0 /* MagicEightTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicEightTests.swift; sourceTree = "<group>"; };
+		431B5F941D64818300FA31F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		431B5F991D64818300FA31F0 /* MagicEightUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MagicEightUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		431B5F9D1D64818300FA31F0 /* MagicEightUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicEightUITests.swift; sourceTree = "<group>"; };
+		431B5F9F1D64818300FA31F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		431B5F7A1D64818300FA31F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		431B5F8B1D64818300FA31F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		431B5F961D64818300FA31F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		431B5F741D64818300FA31F0 = {
+			isa = PBXGroup;
+			children = (
+				431B5F7F1D64818300FA31F0 /* MagicEight */,
+				431B5F911D64818300FA31F0 /* MagicEightTests */,
+				431B5F9C1D64818300FA31F0 /* MagicEightUITests */,
+				431B5F7E1D64818300FA31F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		431B5F7E1D64818300FA31F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				431B5F7D1D64818300FA31F0 /* MagicEight.app */,
+				431B5F8E1D64818300FA31F0 /* MagicEightTests.xctest */,
+				431B5F991D64818300FA31F0 /* MagicEightUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		431B5F7F1D64818300FA31F0 /* MagicEight */ = {
+			isa = PBXGroup;
+			children = (
+				431B5F801D64818300FA31F0 /* AppDelegate.swift */,
+				431B5F821D64818300FA31F0 /* ViewController.swift */,
+				431B5F841D64818300FA31F0 /* Assets.xcassets */,
+				431B5F861D64818300FA31F0 /* Main.storyboard */,
+				431B5F891D64818300FA31F0 /* Info.plist */,
+			);
+			path = MagicEight;
+			sourceTree = "<group>";
+		};
+		431B5F911D64818300FA31F0 /* MagicEightTests */ = {
+			isa = PBXGroup;
+			children = (
+				431B5F921D64818300FA31F0 /* MagicEightTests.swift */,
+				431B5F941D64818300FA31F0 /* Info.plist */,
+			);
+			path = MagicEightTests;
+			sourceTree = "<group>";
+		};
+		431B5F9C1D64818300FA31F0 /* MagicEightUITests */ = {
+			isa = PBXGroup;
+			children = (
+				431B5F9D1D64818300FA31F0 /* MagicEightUITests.swift */,
+				431B5F9F1D64818300FA31F0 /* Info.plist */,
+			);
+			path = MagicEightUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		431B5F7C1D64818300FA31F0 /* MagicEight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 431B5FA21D64818300FA31F0 /* Build configuration list for PBXNativeTarget "MagicEight" */;
+			buildPhases = (
+				431B5F791D64818300FA31F0 /* Sources */,
+				431B5F7A1D64818300FA31F0 /* Frameworks */,
+				431B5F7B1D64818300FA31F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MagicEight;
+			productName = MagicEight;
+			productReference = 431B5F7D1D64818300FA31F0 /* MagicEight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		431B5F8D1D64818300FA31F0 /* MagicEightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 431B5FA51D64818300FA31F0 /* Build configuration list for PBXNativeTarget "MagicEightTests" */;
+			buildPhases = (
+				431B5F8A1D64818300FA31F0 /* Sources */,
+				431B5F8B1D64818300FA31F0 /* Frameworks */,
+				431B5F8C1D64818300FA31F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				431B5F901D64818300FA31F0 /* PBXTargetDependency */,
+			);
+			name = MagicEightTests;
+			productName = MagicEightTests;
+			productReference = 431B5F8E1D64818300FA31F0 /* MagicEightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		431B5F981D64818300FA31F0 /* MagicEightUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 431B5FA81D64818300FA31F0 /* Build configuration list for PBXNativeTarget "MagicEightUITests" */;
+			buildPhases = (
+				431B5F951D64818300FA31F0 /* Sources */,
+				431B5F961D64818300FA31F0 /* Frameworks */,
+				431B5F971D64818300FA31F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				431B5F9B1D64818300FA31F0 /* PBXTargetDependency */,
+			);
+			name = MagicEightUITests;
+			productName = MagicEightUITests;
+			productReference = 431B5F991D64818300FA31F0 /* MagicEightUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		431B5F751D64818300FA31F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = minigeek;
+				TargetAttributes = {
+					431B5F7C1D64818300FA31F0 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					431B5F8D1D64818300FA31F0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 431B5F7C1D64818300FA31F0;
+					};
+					431B5F981D64818300FA31F0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 431B5F7C1D64818300FA31F0;
+					};
+				};
+			};
+			buildConfigurationList = 431B5F781D64818300FA31F0 /* Build configuration list for PBXProject "MagicEight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 431B5F741D64818300FA31F0;
+			productRefGroup = 431B5F7E1D64818300FA31F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				431B5F7C1D64818300FA31F0 /* MagicEight */,
+				431B5F8D1D64818300FA31F0 /* MagicEightTests */,
+				431B5F981D64818300FA31F0 /* MagicEightUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		431B5F7B1D64818300FA31F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431B5F851D64818300FA31F0 /* Assets.xcassets in Resources */,
+				431B5F881D64818300FA31F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		431B5F8C1D64818300FA31F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		431B5F971D64818300FA31F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		431B5F791D64818300FA31F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431B5F831D64818300FA31F0 /* ViewController.swift in Sources */,
+				431B5F811D64818300FA31F0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		431B5F8A1D64818300FA31F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431B5F931D64818300FA31F0 /* MagicEightTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		431B5F951D64818300FA31F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				431B5F9E1D64818300FA31F0 /* MagicEightUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		431B5F901D64818300FA31F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 431B5F7C1D64818300FA31F0 /* MagicEight */;
+			targetProxy = 431B5F8F1D64818300FA31F0 /* PBXContainerItemProxy */;
+		};
+		431B5F9B1D64818300FA31F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 431B5F7C1D64818300FA31F0 /* MagicEight */;
+			targetProxy = 431B5F9A1D64818300FA31F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		431B5F861D64818300FA31F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				431B5F871D64818300FA31F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		431B5FA01D64818300FA31F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		431B5FA11D64818300FA31F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		431B5FA31D64818300FA31F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MagicEight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.minigek.MagicEight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		431B5FA41D64818300FA31F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MagicEight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.minigek.MagicEight;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		431B5FA61D64818300FA31F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MagicEightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.minigek.MagicEightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicEight.app/Contents/MacOS/MagicEight";
+			};
+			name = Debug;
+		};
+		431B5FA71D64818300FA31F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MagicEightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.minigek.MagicEightTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MagicEight.app/Contents/MacOS/MagicEight";
+			};
+			name = Release;
+		};
+		431B5FA91D64818300FA31F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MagicEightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.minigek.MagicEightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MagicEight;
+			};
+			name = Debug;
+		};
+		431B5FAA1D64818300FA31F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MagicEightUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.minigek.MagicEightUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MagicEight;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		431B5F781D64818300FA31F0 /* Build configuration list for PBXProject "MagicEight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				431B5FA01D64818300FA31F0 /* Debug */,
+				431B5FA11D64818300FA31F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		431B5FA21D64818300FA31F0 /* Build configuration list for PBXNativeTarget "MagicEight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				431B5FA31D64818300FA31F0 /* Debug */,
+				431B5FA41D64818300FA31F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		431B5FA51D64818300FA31F0 /* Build configuration list for PBXNativeTarget "MagicEightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				431B5FA61D64818300FA31F0 /* Debug */,
+				431B5FA71D64818300FA31F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		431B5FA81D64818300FA31F0 /* Build configuration list for PBXNativeTarget "MagicEightUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				431B5FA91D64818300FA31F0 /* Debug */,
+				431B5FAA1D64818300FA31F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 431B5F751D64818300FA31F0 /* Project object */;
+}
